@@ -1,0 +1,114 @@
+﻿@model BRQ.Avalicacao.EderSESanto.Models.IndexModel
+@{
+    ViewBag.Title = "Principal";
+}
+@*<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">*@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+@*<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>*@
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+
+<div class="jumbotron">
+    <h1>Tratamento de Arquivo</h1>
+
+
+</div>
+
+
+<script type="text/javascript">
+    jQuery(function ($) {
+        $("#btnStopProcess").click(function (e) {
+
+           location.reload(); 
+        });
+
+    })(jQuery);
+
+
+</script>
+
+<!--------------------- Modal ------------------------>
+<div class="container">
+
+
+    <!-- The Modal -->
+    <div class="modal" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Processando</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    Procesando....
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+
+                    @*<button type="button" class="btn btn-danger" id="btnStopProcess">Para</button>*@
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!--*******************************************************************************-->
+
+
+
+
+@using (Html.BeginForm("Index", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+
+
+    <div class="row">
+
+
+        <div class="col-md-4">
+
+            @Html.TextBoxFor(m => m.strArquivoEntrada, new { type = "file" })
+
+
+
+        </div>
+        <div class="col-md-4">
+
+
+        </div>
+        <div class="col-md-4">
+            <input type="submit" id="IniciarProcesso" title="Iniciar" value="Iniciar" class="btn-default" data-toggle="modal" data-target="#myModal" />
+
+
+        </div>
+    </div>
+    <br />
+    <br />
+    <div class="row">
+
+
+        <div class="col-md-12">
+
+            @if (ViewData["RetornoMsg"] != null)
+            {
+                <label>@Html.Raw(@ViewData["RetornoMsg"]) </label>
+                <br />
+
+                @Html.ActionLink("Donwload", "Download", "Home")
+            }
+
+
+
+
+        </div>
+
+    </div>
+}
+
+

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BRQ.Avalicacao.EderSESanto", "BRQ.Avalicacao.EderSESanto\BRQ.Avalicacao.EderSESanto.csproj", "{FC8F90D1-2587-4F14-9E1F-A724E0F54CA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BRQ.Avalicacao.EderSESantoTests", "BRQ.Avalicacao.EderSESantoTests\BRQ.Avalicacao.EderSESantoTests.csproj", "{B6C7CFBB-8345-4BB3-B664-0EC581E5BB53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC8F90D1-2587-4F14-9E1F-A724E0F54CA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC8F90D1-2587-4F14-9E1F-A724E0F54CA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC8F90D1-2587-4F14-9E1F-A724E0F54CA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC8F90D1-2587-4F14-9E1F-A724E0F54CA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6C7CFBB-8345-4BB3-B664-0EC581E5BB53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6C7CFBB-8345-4BB3-B664-0EC581E5BB53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6C7CFBB-8345-4BB3-B664-0EC581E5BB53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6C7CFBB-8345-4BB3-B664-0EC581E5BB53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {161CA483-00F0-4CEB-80F3-925472CD9B7E}
+	EndGlobalSection
+EndGlobal

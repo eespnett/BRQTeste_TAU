@@ -1,0 +1,8 @@
+C:\BRQ_TESTE\BRQ_Avaliacao\BRQ.Avalicacao.EderSESanto\BRQ.Avalicacao.EderSESantoTests\bin\Debug\BRQ.Avalicacao.EderSESantoTests.dll
+C:\BRQ_TESTE\BRQ_Avaliacao\BRQ.Avalicacao.EderSESanto\BRQ.Avalicacao.EderSESantoTests\bin\Debug\BRQ.Avalicacao.EderSESantoTests.pdb
+C:\BRQ_TESTE\BRQ_Avaliacao\BRQ.Avalicacao.EderSESanto\BRQ.Avalicacao.EderSESantoTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\BRQ_TESTE\BRQ_Avaliacao\BRQ.Avalicacao.EderSESanto\BRQ.Avalicacao.EderSESantoTests\bin\Debug\pt-BR\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\BRQ_TESTE\BRQ_Avaliacao\BRQ.Avalicacao.EderSESanto\BRQ.Avalicacao.EderSESantoTests\obj\Debug\BRQ.Avalicacao.EderSESantoTests.csprojAssemblyReference.cache
+C:\BRQ_TESTE\BRQ_Avaliacao\BRQ.Avalicacao.EderSESanto\BRQ.Avalicacao.EderSESantoTests\obj\Debug\BRQ.Avalicacao.EderSESantoTests.csproj.CopyComplete
+C:\BRQ_TESTE\BRQ_Avaliacao\BRQ.Avalicacao.EderSESanto\BRQ.Avalicacao.EderSESantoTests\obj\Debug\BRQ.Avalicacao.EderSESantoTests.dll
+C:\BRQ_TESTE\BRQ_Avaliacao\BRQ.Avalicacao.EderSESanto\BRQ.Avalicacao.EderSESantoTests\obj\Debug\BRQ.Avalicacao.EderSESantoTests.pdb
